@@ -107,11 +107,14 @@ footer {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 600px){
     .container{
         margin: 85px auto;
     }
     .wrapper form .row .Buttons .generate ,.wrapper form .row .Buttons .copy{
-        padding : 10px;
+        font-size: 11px;
+    }
+    .wrapper .title{
+        font-size: 23px;
     }
 }
