@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random Color Generator</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&family=Work+Sans:wght@300;500;700;900&display=swap" rel="stylesheet"> 
+        
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <h1 class="title">Random Color Generator</h1>
+
+                <form>
+                    <div class="row">
+
+                        <div id ="Color">
+                            <div class="code">
+                                <p id="hexCode" style="color:#11636E;">#FFFFFF</p>
+                            </div>
+                        </div>
+
+                        <div class="Buttons">
+                            <button class="generate">Generate Color</button>
+                            <button class="copy">Copy Hex Code</button>
+                        </div>
+
+                        <p class ='hide' id="copyMessage">Color code copied to clipboard</p>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <p>Copyright &copy;2024 | made with &#10084;<i className='fa fa-heart'></i> by Eman</p>
+        </footer>
+
+    
+        <script src="scripts.js"></script>
+    </body>
+
+</html>
