@@ -108,13 +108,19 @@ footer {
 }
 
 @media only screen and (max-width: 600px){
+    .wrapper .title{
+        font-size: 23px;
+    }
+
     .container{
         margin: 85px auto;
     }
     .wrapper form .row .Buttons .generate ,.wrapper form .row .Buttons .copy{
         font-size: 11px;
     }
-    .wrapper .title{
-        font-size: 23px;
+    
+    .wrapper form .row #copyMessage{
+        font-size: 11px;
+        margin-top: 19px;
     }
 }
