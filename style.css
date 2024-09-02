@@ -117,7 +117,9 @@ footer {
     }
     .wrapper form .row .Buttons .generate ,.wrapper form .row .Buttons .copy{
         font-size: 11px;
+         width: 34%;
     }
+    
     
     .wrapper form .row #copyMessage{
         font-size: 11px;
